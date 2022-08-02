@@ -9,7 +9,6 @@ class App extends Component {
 
   state = {
     contacts: [
-      { id: 'id-0', name: 'Artem Chubenko', number: '020-12-22' },
       { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
       { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },
       { id: 'id-3', name: 'Eden Clements', number: '645-17-79' },
@@ -76,8 +75,6 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>PhoneBook</h1>
-
         <ContactForm contact={this.getContact} />
 
         <h2>Your contacts list</h2>

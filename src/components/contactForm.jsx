@@ -23,11 +23,10 @@ export default class Form extends Component {
     this.clear();
   };
 
-
-
   render() {
     return (
       <form onSubmit={this.onSubmit}>
+        <h1>PhoneBook</h1>
         <h3>Name</h3>
         <input
           type="text"
