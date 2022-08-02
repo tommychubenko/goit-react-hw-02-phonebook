@@ -23,9 +23,7 @@ export default class Form extends Component {
     this.clear();
   };
 
-  // componentDidMount() {
-  //   this.setState({ id: nanoid(3) });
-  // }
+
 
   render() {
     return (
